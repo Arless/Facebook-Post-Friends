@@ -1,4 +1,4 @@
-# Facebook-Post-Friends/ Permite Obtener la informaciónn de un amigo de facebook.
+# Facebook-Post-Friends/ Permite Obtener la información de un amigo de facebook.
 REQUERIMIENTOS  
 --Se necesita tener una cuenta en Facebook Developers.  
 --Crear una app.  
