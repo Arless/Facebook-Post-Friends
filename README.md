@@ -1,4 +1,4 @@
-# Facebook-Post-Friends
+# Facebook-Post-Friends/ Permite Obtener la informacion de un amigo de facebook.
 Se necesita tener una cuenta en Facebook Developers.
 Crear una app.
 Obtener el App Id, Id Secret, Access Token.
