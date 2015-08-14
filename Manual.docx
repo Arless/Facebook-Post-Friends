@@ -1,0 +1,23 @@
+El primer paso es crear una cuenta como desarrollador y una aplicación en Facebook Developers.
+A continuación se muestra la liga para poder crear la cuenta.
+https://developers.facebook.com/ 
+La recomendación es que se esté logueado con su cuenta de Facebook para poder crear la cuenta en Facebook Developers.
+
+Una vez logueado en Facebook Developers creamos una nueva aplicación:
+ 
+Una vez que hemos creado nuestra aplicación nos aparecerá en el Dashboard la información personal de nuestra app que es App ID y el ID Secret que más adelante utilizaremos. 
+Ahora necesitamos otro elmento llamado Access Token que nos ayudara a realizar la conexion con el Graph Api de Facebook.
+Antes de poder utlizar el Access token necesitamos dar los permisos necesarios para obtener la información deseada.
+Una vez que ya tenemos nuestros elementos ahora comenzaremos a desarrollar la aplicación en Java, en este caso lo haremos con el IDE Netbeans, en la documentación de Facebook Developers podemos encontrar ejemplos de cómo desarrollar apps en distintas plataformas incluyendo Java, no profundizaremos  mucho en el código solo en las partes más relevantes ya que  tendrán el código  disponible en la siguiente liga: https://github.com/Arless/Facebook-Post-Friends#facebook-post-friends 
+
+Creamos un proyecto en Java a la cual en este caso le pondremos Facebook en donde lo primero que haremos será crear una clase pasar los parámetros que necesitaremos, como el App Id, App Secret y el Access Token, cabe mencionar que por seguridad el Access Token es actualizado por Facebook cada 2 horas por lo que se recomienda estar pendientes y tener actualizado el Access Token antes de utilizar la aplicación. 
+Ahora pasaremos los permisos que anteriormente se le dio a la aplicación. 
+Ahora se muestran las interfaces para el login de la app y su función que realiza la mostrar la información de un amigo, en esta interfaz se pide los datos principales de desarrollador, sin embargo si se tiene una sesión ya iniciada no hará falta volver a ingresar sus datos.
+Una vez iniciada la sesión podremos ver la lista de amigos y escoger alguno.
+ 
+Una vez que hemos seleccionado a un amigo podremos escoger cuantos post deseamos ver de él.
+ 
+
+
+
+Y finalmente ahora podemos escoger cualquier post de alguno de nuestros amigos de Facebook, si contiene alguna imagen se mostrará en un costado, al igual si la publicación ha sido comentada se visualizará por quien fue comentada el comentario como tal y si ha tenido algún like o no. 
